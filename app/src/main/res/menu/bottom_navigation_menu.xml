@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_home"
+        android:icon="@drawable/ic_sensor"
+        android:title="@string/dispositivos" />
+    <item
+        android:id="@+id/programar"
+        android:icon="@drawable/ic_programar"
+        android:title="@string/programar" />
+    <item
+        android:id="@+id/historial"
+        android:icon="@drawable/ic_historial"
+        android:title="@string/historial" />
+    <item
+        android:id="@+id/ajustes"
+        android:icon="@drawable/ic_configuraciones"
+        android:title="@string/ajustes" />
+
+
+</menu>
+

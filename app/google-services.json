@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "252817888891",
+    "project_id": "eva03-a8307",
+    "storage_bucket": "eva03-a8307.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252817888891:android:74da600f2436d43b0234de",
+        "android_client_info": {
+          "package_name": "com.example.airsafeeva0212"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnBKEZprWcBSB_ML5hkDpzxmhS92rYEH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/air_safe"
+        android:textStyle="bold|normal"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginTop="32dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Sección de "Sensores" -->
+    <TextView
+        android:id="@+id/tituloSensores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sensores_titulo"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/descriSensores"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/desc_sensores"
+        android:textColor="#B0B0B0"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/tituloSensores"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <!-- Botón de agregar sensores -->
+    <Button
+        android:id="@+id/buttonSensores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/icono_mas"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1A73E8"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/descriSensores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Sección de "Aperturas" -->
+    <TextView
+        android:id="@+id/aperturasTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/aperturas_titulo"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="24dp"
+        app:layout_constraintTop_toBottomOf="@id/buttonSensores"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/aperturasDescription"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion_2"
+        android:textColor="#B0B0B0"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/aperturasTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAperturas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#1A73E8"
+        android:contentDescription="Agregar apertura"
+        android:text="@string/icono_mas_aperturas"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/aperturasDescription" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
